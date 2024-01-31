@@ -119,7 +119,7 @@ const ShowDetails = () => {
                                         />
                                     </div>
 
-                                    <button type="submit" className="btn btn-primary">
+                                    <button type="submit" className="btn btn-primary mt-3">
                                         Confirm Booking
                                     </button>
                                 </form>
