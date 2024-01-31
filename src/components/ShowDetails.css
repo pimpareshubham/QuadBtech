@@ -2,9 +2,8 @@
    
     
     background-image: url("https://images.unsplash.com/photo-1634157703702-3c124b455499?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  
-    background-size: contain;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-width: fit-content;
     justify-content: center;
@@ -13,18 +12,11 @@
 
 
   .card-3{
-
     border-radius: 10px;
-    
     background-size: cover;
     backdrop-filter: blur(100px);
-    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
-   
     color: white;
-
-
   }
   .modal-backdrop {
     --bs-backdrop-zindex: -1 !important;
